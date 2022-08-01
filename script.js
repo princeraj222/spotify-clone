@@ -26,6 +26,7 @@ let songs = [
     {songName:"UP UP AND AWAY X HOPE" , filePath: "songs/14.mp3",coverPath:"covers/14.jpg"},
     {songName: "IF U COULD SEE ME NOW" , filePath: "songs/15.mp3",coverPath:"covers/15.jpg"},
     {songName: "NIGHT CHANGES" , filePath: "songs/16.mp3",coverPath:"covers/16.jpg"},
+    {songName: "ROYALTY" , filePath: "songs/17.mp3",coverPath:"covers/17.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
@@ -85,7 +86,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
 })
 
 document.getElementById('next').addEventListener('click', ()=>{
-    if(songIndex>=9){
+    if(songIndex>=17){
         songIndex = 0
     }
     else{
